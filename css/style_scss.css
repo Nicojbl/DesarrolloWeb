@@ -1,0 +1,57 @@
+@import "https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@300;400&display=swap";
+h1, h2, h3 {
+  color: #1B1B1B;
+  font-size: 1.8rem;
+  font-family: "Patrick Hand", cursive; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0rem;
+  line-height: 2rem;
+  color: #373740; }
+
+.navbar img {
+  width: 180px; }
+
+.navbar-logo {
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem; }
+
+.bg-navbar {
+  background-color: #ededed; }
+
+.transformacion img:hover {
+  transform: translate(15px);
+  cursor: pointer; }
+
+.bg-enviar {
+  background-color: #E8E8E8; }
+
+.bg-blue {
+  background-color: #4EBAFE; }
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.boton-arreglos {
+  display: flex;
+  justify-content: center; }
+
+.ubicacion {
+  display: flex;
+  width: 100%;
+  justify-content: center; }
+
+.pie {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  flex-direction: column; }
+
+@media (min-width: 576px) {
+  .pie {
+    flex-direction: row; }
+  .navbar img {
+    width: 300px; } }

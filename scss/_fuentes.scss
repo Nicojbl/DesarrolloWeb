@@ -1,0 +1,14 @@
+@import "https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@300;400&display=swap";
+
+h1,h2,h3 {
+	color: $negro;
+	font-size: 1.8rem;
+	font-family: $fuenteTitulo;
+}
+
+p {
+	font-family: $fuentePrincipal;
+	font-size: 1.0rem;
+	line-height: 2rem;
+	color: $gris;
+}

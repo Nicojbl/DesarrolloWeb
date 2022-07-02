@@ -1,0 +1,73 @@
+// navEdit
+.navbar {
+	img{
+		width: 180px;
+	}
+}
+
+.navbar-logo{
+	padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+}
+
+.bg-navbar{
+	background-color: $blanco;
+}
+
+// animaciones etc
+.transformacion {
+	img {
+		&:hover {
+			transform: translate(15px);
+			cursor: pointer;
+		}
+	}
+}
+
+// colores generales
+.bg-enviar{
+	background-color: $colorDeEnviar;
+}
+
+.bg-blue{
+	background-color: $azul;
+}
+
+// form
+.form{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.boton-arreglos{
+	display: flex;
+	justify-content: center;
+}
+
+// ubi
+.ubicacion{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+// footer
+.pie{
+	display: flex;
+	align-items: center;
+	margin: 30px;
+	flex-direction: column;
+}
+
+// media
+@media (min-width: 576px){
+	.pie{
+		flex-direction: row;
+	}
+	.navbar {
+		img{
+		width: 300px;
+		}
+	}
+}
