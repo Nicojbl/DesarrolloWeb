@@ -11,8 +11,11 @@
 }
 
 .bg-navbar{
-	background-color: $blanco;
+	background-color: map-get($map:$paletabg, $key:blanco)
 }
+
+// header
+
 
 // animaciones etc
 .transformacion {
@@ -26,17 +29,16 @@
 
 // colores generales
 .bg-enviar{
-	background-color: $colorDeEnviar;
+	background-color: map-get($map:$paletabg, $key:grisClaro)
 }
 
 .bg-blue{
-	background-color: $azul;
+	background-color: map-get($map:$paletabg, $key:azul)
 }
 
 // form
 .form{
-	display: flex;
-	justify-content: center;
+	@extend .extender-flex;
 	width: 100%;
 }
 
@@ -47,9 +49,8 @@
 
 // ubi
 .ubicacion{
-	display: flex;
+	@extend .extender-flex;
 	width: 100%;
-	justify-content: center;
 }
 
 // footer
@@ -61,7 +62,7 @@
 }
 
 // media
-@media (min-width: 576px){
+@media (min-width: 768px){
 	.pie{
 		flex-direction: row;
 	}
@@ -69,5 +70,12 @@
 		img{
 		width: 300px;
 		}
+	}
+}
+
+@media (min-width: 1200px){
+	.header{
+	height: 700px;
+	object-fit: cover;
 	}
 }

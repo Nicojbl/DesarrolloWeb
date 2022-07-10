@@ -1,4 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@300;400&display=swap";
+.extender-flex, .form, .ubicacion {
+  display: flex;
+  justify-content: center; }
+
 h1, h2, h3 {
   color: #1B1B1B;
   font-size: 1.8rem;
@@ -6,7 +10,7 @@ h1, h2, h3 {
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.0rem;
+  font-size: 1rem;
   line-height: 2rem;
   color: #373740; }
 
@@ -31,8 +35,6 @@ p {
   background-color: #4EBAFE; }
 
 .form {
-  display: flex;
-  justify-content: center;
   width: 100%; }
 
 .boton-arreglos {
@@ -40,9 +42,7 @@ p {
   justify-content: center; }
 
 .ubicacion {
-  display: flex;
-  width: 100%;
-  justify-content: center; }
+  width: 100%; }
 
 .pie {
   display: flex;
@@ -50,8 +50,13 @@ p {
   margin: 30px;
   flex-direction: column; }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .pie {
     flex-direction: row; }
   .navbar img {
     width: 300px; } }
+
+@media (min-width: 1200px) {
+  .header {
+    height: 700px;
+    object-fit: cover; } }

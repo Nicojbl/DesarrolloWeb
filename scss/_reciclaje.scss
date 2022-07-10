@@ -1,0 +1,21 @@
+// extends
+.extender-flex{
+	display: flex;
+	justify-content: center;
+}
+
+
+// mixins
+@mixin texto($size, $line-height, $color){
+	font-size: $size;
+	line-height: $line-height;
+	color: $color;
+}
+
+// maps
+$paletabg:(
+	'negro': #1B1B1B,
+	'blanco': #ededed,
+	'gris': #373740,
+	'grisClaro': #E8E8E8,
+	'azul': #4EBAFE,);
