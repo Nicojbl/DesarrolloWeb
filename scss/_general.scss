@@ -1,7 +1,8 @@
 // navEdit
 .navbar {
 	img{
-		width: 180px;
+		width: 150px;
+		padding-left: 40px;
 	}
 }
 
@@ -36,6 +37,25 @@
 	background-color: map-get($map:$paletabg, $key:azul)
 }
 
+// quienes somos
+.quienesSomos{
+	width:75%;
+	overflow: initial;
+	padding: 30px 30px;
+	border: solid $azul 3px;
+	box-sizing: border-box;
+	margin: 50px auto;
+}
+
+.quienesSomosTitulo{
+	display: flex;
+	justify-content: center;
+	border-bottom: solid $azul 2px;
+	border-radius: 20px;
+	width: 200px;
+	margin: 10px auto;
+}
+
 // form
 .form{
 	@extend .extender-flex;
@@ -68,14 +88,14 @@
 	}
 	.navbar {
 		img{
-		width: 300px;
+		width: 200px;
 		}
 	}
 }
 
 @media (min-width: 1200px){
 	.header{
-	height: 700px;
+	height: 600px;
 	object-fit: cover;
 	}
 }

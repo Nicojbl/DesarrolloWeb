@@ -1,10 +1,10 @@
 {
-  "name": "proyecto2.0",
+  "name": "Proyect E-Bikes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Somos una empresa destinada a la venta de vehiculos electricos, con el fin de proporcionar a nustros clientes la facilidad de moverse por cualquier lado de una manera facil, rapida y poco costosa ya que cuentan con una autonomia superior al resto.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1","build-css": "node-sass --include-path scss scss/style_scss.scss css/style_scss.css",
+    "test": "echo \"Error: no test specified\" && exit 1","build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm     run build-css\""
   },
   "repository": {
